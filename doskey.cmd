@@ -1,4 +1,11 @@
 @echo off
+@REM Permanent DOSKEY commands for CMD
+@REM Win11 Terminal json file: add the file as a parameter to CMD call
+@REM cmd.exe /K path\doskey.cmd
+
+@REM Temp Commented
+@REM doskey gc=git commit -am "$*"
+
 doskey vi=vim
 doskey em=emacs -nw
 doskey np=notepad
