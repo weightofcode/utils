@@ -4,7 +4,7 @@
 @REM cmd.exe /K path\\doskey.cmd
 
 @REM Temp Commented
-@REM doskey gc=git commit -am "$*"
+
 doskey vi=vim
 doskey em=emacs -nw
 doskey np=notepad
