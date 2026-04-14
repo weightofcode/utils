@@ -17,4 +17,4 @@ doskey gb=git branch -va
 doskey ga=git add *
 doskey gc=git commit -a -m "$*"
 doskey gpl=git pull
-doskey gp=git push
+doskey gps=git push
