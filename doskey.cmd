@@ -17,7 +17,9 @@ doskey mv=move
 
 doskey ga=git add *
 doskey gb=git branch -va
-doskey gc=git commit -a -m "$*"
+doskey gcl=git clone $*
+doskey gclr=git clone --recurse-submodules "$*"
+doskey gcm=git commit -a -m "$*"
 doskey gd=git diff
 doskey gf=git fetch
 doskey gpl=git pull
