@@ -13,8 +13,8 @@ doskey ls=dir
 doskey lsd=dir /d
 doskey lsw=dir /w
 doskey rds=rd /s /q
-doskey mv=move
-doskey cp=copy
+doskey mv=move "$*" "$*"
+doskey cp=copy "$*" "$*"
 
 doskey ga=git add *
 doskey gb=git branch -va
