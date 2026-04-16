@@ -8,13 +8,19 @@
 doskey vi=vim
 doskey em=emacs -nw
 doskey np=notepad
+
 doskey ls=dir
 doskey lsd=dir /d
 doskey lsw=dir /w
-doskey gs=git status
-doskey gd=git diff
-doskey gb=git branch -va
+doskey rds=rd /s /q
+doskey mv=move
+
 doskey ga=git add *
+doskey gb=git branch -va
 doskey gc=git commit -a -m "$*"
+doskey gd=git diff
+doskey gf=git fetch
 doskey gpl=git pull
 doskey gps=git push
+doskey grh=git reset --hard HEAD
+doskey gs=git status
