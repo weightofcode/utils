@@ -12,6 +12,7 @@ doskey np=notepad
 doskey ls=dir
 doskey lsd=dir /d
 doskey lsw=dir /w
+doskey md=mkdir "$*"
 doskey rds=rd /s /q "$*"
 doskey mv=move "$*" "$*"
 doskey cp=copy "$*" "$*"
