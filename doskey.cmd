@@ -23,6 +23,7 @@ doskey gclr=git clone --recurse-submodules "$*"
 doskey gcm=git commit -a -m "$*"
 doskey gd=git diff
 doskey gf=git fetch
+doskey gl=git log -n7 --oneline
 doskey gpl=git pull
 doskey gps=git push
 doskey grh=git reset --hard HEAD
