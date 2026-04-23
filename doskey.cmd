@@ -35,5 +35,5 @@ doskey grh=git reset --hard HEAD
 doskey gs=git status
 
 @REM Python
-doskey pce=python -m py_compile "$*"  :: errors
-doskey pcs=python -m pyflakes "$*"	:: style (ruff works too)
+doskey pce=python -m py_compile "$*"
+doskey pcs=python -m pyflakes "$*"
