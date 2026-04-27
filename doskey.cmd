@@ -36,4 +36,5 @@ doskey gs=git status
 
 @REM Python
 doskey pce=python -m py_compile "$*"
-doskey pcs=python -m pyflakes "$*"
+doskey pcs=python -m ruff check "$*"
+doskey pcf=python -m ruff format "$*"
